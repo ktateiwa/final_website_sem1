@@ -1,0 +1,57 @@
+body {
+    background-image: url("http://wallpoper.com/images/00/40/12/39/music-linkin_00401239.jpg");
+	background-size: 100%;
+	background-repeat: none;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    color: grey;
+}
+
+li {
+    display: inline;
+    padding: 25px;
+    padding-top: 
+}
+
+.header {
+	   /*Opacity start*/
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+    filter: alpha(opacity=50);
+    -moz-opacity: 0.50;
+    -khtml-opacity: 0.5;
+    opacity: 0.5;
+    /*Opacity end*/
+	text-align: right;
+	font-family: 'Oswald', sans-serif;
+	height:50px;
+    background: #000;
+    border:1px solid #CCC;
+    width: 0px auto;
+    margin:0px auto;
+    border-style: none;
+    padding-top: 15px;
+    font-size: 22px;
+}
+
+/* unvisited link */
+a:link {
+    color: #BFBFBF;
+}
+
+/* visited link */
+a:visited {
+	color: #BFBFBF;
+}
+
+/* mouse over link */
+a:hover {
+    color: #fff;
+}
+
+/* selected link */
+a:active {
+    color: #926ACC;
+}
